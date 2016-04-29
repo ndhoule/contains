@@ -1,15 +1,10 @@
 'use strict';
 
-/**
+/*
  * Module dependencies.
  */
 
-// XXX: Hacky fix for duo not supporting scoped npm packages
-var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('each'); }
-
-/**
- * String#indexOf reference.
- */
+var each = require('@ndhoule/each');
 
 var strIndexOf = String.prototype.indexOf;
 
@@ -21,7 +16,6 @@ var strIndexOf = String.prototype.indexOf;
  * @param {*} value2
  * @return {boolean}
  */
-
 // TODO: Move to library
 var sameValueZero = function sameValueZero(value1, value2) {
   // Normal values and check for 0 / -0
@@ -81,7 +75,7 @@ var includes = function includes(searchElement, collection) {
   return found;
 };
 
-/**
+/*
  * Exports.
  */
 
