@@ -1,6 +1,6 @@
 {
   "name": "@ndhoule/includes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Determine whether or not a value is contained by a given collection.",
   "main": "index.js",
   "repository": {
